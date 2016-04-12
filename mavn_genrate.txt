@@ -1,0 +1,13 @@
+
+mvn archetype:generate -DarchetypeGroupId=com.day.jcr.vault -DarchetypeArtifactId=multimodule-content-package-archetype -DarchetypeVersion=1.0.0 -DarchetypeRepository=adobe-public-releases
+
+
+
+-DgroupId=int-group
+-DartifactId=internal
+-Dversion=1.0-SNAPSHOT
+-Dpackage=com.internal.cms
+-DappsFolderName=aem-int
+-DartifactName="AEM Internals"
+-DcqVersion="6.1"
+-DpackageGroup="AEM-Internals"
